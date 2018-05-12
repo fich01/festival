@@ -1,0 +1,165 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ------------ FONTOVI ----------------------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6, .navbar{
+    text-transform: uppercase;
+}
+
+h1, h2, .navbar-default, footer h4, .trexp h4{
+    font-weight: 700;
+}
+
+h1, h3{
+    letter-spacing: -2px;
+}
+
+/* -------------------------------- BOJE ----------------------------------------------*/
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .footer a:hover {
+    color: #ff3467;
+    background: transparent;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a, .jumbotron, .footer h4, .footer {
+    color: #fff;
+}
+
+.btn-primary:hover, .btn-primary:focus{
+    background-color: #ff3467;
+    border-color: #ff3467;
+}
+
+h4, h3{
+    color: #ff3467;
+}
+
+/* ----------------------------- NAVBAR --------------------------------------------------------------*/
+
+.navbar{
+    z-index: 50;
+    transition: background 0.5s ease-in;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-brand{
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 100px; 
+    transition: all 0.3s ease-in-out;
+}
+
+.sticky{
+    background: black;
+}
+
+/* --------------------------------JUMBOTRON -------------------------------------------------------*/
+
+.jumbotron{
+    background: url("../img/audience.jpg") center center;
+    background-size: cover;
+    height: 700px;
+}
+
+.malodolje{
+    margin-top: 140px;
+}
+ 
+.jumbotron h1{
+    display: inline-block;
+    max-width: 600px;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.jumbotron h1, .jumbotron p:first-child{
+    text-shadow: 0px 0px 18px 4px rgba(1,1,1,0.7);
+}
+
+/* ------------------------- ABOUT-AVENUE-LINEUP -------------------------------------------------- */
+
+@media all and (min-width:992px){
+.col-md-offset-2 {
+    margin-left: 184px;
+}
+
+.col-md-offset-1 {
+    margin-left: 84px;
+}
+
+}
+
+ /* -------------------------------- LIMITED OFFER ---------------------------------------------- */
+
+.limited{
+    background: url("../img/crowd.jpg") fixed center center; 
+    background-size: cover;   
+    height: 400px;
+    padding-top: 120px;
+    color: white;
+    margin: 50px 0 30px 0;
+}
+
+/* --------------------------------- TRAILER/EXPERIENCES --------------------------------------------*/
+
+h3{
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.border{
+    border: 1px solid black;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.border img{
+    margin: 10px auto;
+}
+
+.border h4{
+    margin-top: 20px;
+    color: black;
+}
+
+.border p{
+    margin-bottom: 20px;
+}
+    
+
+@media all and (min-width:768px){
+    .border .col-sm-10{
+        text-align: left;
+    }
+
+}
+
+/* ------------------------------ FOOTER ---------------------------------------------------- */
+
+.footer{
+    background: black;
+    padding: 40px 40px 60px 40px;
+}
+
+.footer a{
+    display: inline-block;
+    background: #ff3467;
+    border: 1px solid #ff3467;
+    width: 48px;
+    height: 48px;
+    margin: 40px 5px;
+    transition: background 0.15s ease-in-out;
+}
+
+

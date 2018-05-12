@@ -1,0 +1,10 @@
+{
+  "name": "festival",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ficho",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
